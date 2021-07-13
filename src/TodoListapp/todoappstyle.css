@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(185, 231, 231);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 50px;
+    background-color: white;
+    width: 330px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card h1{
+    margin: 20px 0;
+    background-color: rgb(141, 71, 189);
+    padding: 5px 20px;
+    color: white;
+   
+}
+.card h2{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.btns{
+    margin-top: 50px;
+}
+.btns button{
+    border-radius: none;
+    padding: 20px;
+    margin: 20px;}
+.card input{
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(141, 71, 189);
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 5px;
+}
+.card input::placeholder{
+    color: rgb(141, 71, 189);
+}
+input:focus {
+    outline: none !important;
+}
+.card button{
+    padding: 10px 15px;
+    background-color: rgb(141, 71, 189);
+    color: white;
+    margin: 0 5px;
+    border: none;
+    border-radius: 22px;
+    font-size: 20px;
+    
+}
+.card button:hover{
+ color: green;
+}
+
+.card ul li{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(141, 71, 189);
+    text-align: left;
+}
+.closeItem i{
+ background-color: rgb(141, 71, 189);
+ color: white;
+ margin: 0 5px;
+ padding: 5px 8px; 
+ border-radius: 15px;
+ float: left;
+}
+.closeItem i:hover{
+    background-color: red;
+}
